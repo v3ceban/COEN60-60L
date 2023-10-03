@@ -28,15 +28,6 @@ header {
 			margin-left: 10px;
 		}
 
-		h1::after {
-			content: "";
-			display: block;
-			border-bottom: solid 1px peachpuff;
-			transform: scaleX(0);
-			transition: transform 0.5s ease;
-			transform-origin: right;
-		}
-
 		a {
 			color: white;
 			text-decoration: none;
@@ -48,10 +39,6 @@ header {
 					h1 {
 						color: peachpuff;
 						transition: all 0.2s ease-in;
-					}
-					h1::after {
-						transform: scaleX(1);
-						transform-origin: left;
 					}
 				}
 			}

@@ -1,0 +1,17 @@
+{
+  "name": "assign1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass ./sass/main.scss ./css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.68.0",
+    "scss": "^0.2.4",
+    "vite": "^4.4.5"
+  }
+}
