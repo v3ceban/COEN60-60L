@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG exercise</title>
+    <style>
+      .schedule {
+        padding-left: 10px;
+        margin-bottom: 10px;
+      }
+      .schedule > li:last-of-type {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Schedule</h1>
+    <ul>
+      <li>Monday</li>
+      <ul class="schedule">
+        <li style="color: red">Sleep: 6h</li>
+        <li style="color: black">Breakfast: 30m</li>
+        <li style="color: blue">School: 4h</li>
+        <li>
+          <svg width="400" height="5">
+            <rect width="60" height="5" x="0" fill="red" />
+            <rect width="10" height="5" x="60" fill="black" />
+            <rect width="40" height="5" x="70" fill="blue" />
+          </svg>
+        </li>
+      </ul>
+      <li>Tuesday</li>
+      <ul class="schedule">
+        <li style="color: red">Sleep: 2h</li>
+        <li style="color: black">Breakfast: 3h</li>
+        <li style="color: blue">School: 10h</li>
+        <li>
+          <svg width="400" height="5">
+            <rect width="20" height="5" x="0" fill="red" />
+            <rect width="30" height="5" x="20" fill="black" />
+            <rect width="100" height="5" x="50" fill="blue" />
+          </svg>
+        </li>
+      </ul>
+    </ul>
+    <form>
+      <label for="text">Enter something:</label>
+      <input type="text" id="text" size="5" />
+    </form>
+  </body>
+</html>
