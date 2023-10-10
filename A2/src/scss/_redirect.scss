@@ -1,0 +1,22 @@
+#redirect {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: auto;
+  height: 90vh;
+  justify-content: center;
+
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+
+  a {
+    color: white;
+    background: black;
+    display: block;
+    padding: 15px 30px;
+    margin: 0 auto;
+  }
+}

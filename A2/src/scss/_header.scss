@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    ul {
+      line-height: 2em;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
