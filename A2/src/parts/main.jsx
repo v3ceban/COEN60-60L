@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <main>
-      <section id="Sunday">
+      <section className="active" id="Sunday">
         <h2>Sunday</h2>
       </section>
       <section id="Monday">

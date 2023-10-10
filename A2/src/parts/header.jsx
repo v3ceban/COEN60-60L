@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <header>
       <h1>Vlads Schedule Page</h1>
+      <img src="https://placekitten.com/150/150" alt="vlad" />
       <nav>
         <ul>
           <li>
