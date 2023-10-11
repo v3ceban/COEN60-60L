@@ -6,7 +6,7 @@ import "./scss/index.scss";
 const root = ReactDOM.createRoot(document.querySelector("#container"));
 
 root.render(
-  <>
-    <Main />
-  </>,
+	<>
+		<Main />
+	</>
 );
