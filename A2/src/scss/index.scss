@@ -2,13 +2,31 @@
 @import "redirect";
 @import "header";
 @import "main";
+@import "colors";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap");
+
+body {
+	background: $white;
+	color: $black;
+	font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+}
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 #container {
-  max-width: 80%;
-  margin: 0 auto;
+	max-width: 80%;
+	margin: 0 auto;
 }

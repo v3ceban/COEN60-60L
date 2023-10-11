@@ -10,23 +10,23 @@ import Friday from "./days/friday";
 import Saturday from "./days/saturday";
 
 export default function Main() {
-  const [currentPage, setPage] = useState("Summary");
+	const [currentPage, setPage] = useState("Summary");
 
-  const pageMap = {
-    Summary: <Summary />,
-    Sunday: <Sunday />,
-    Monday: <Monday />,
-    Tuesday: <Tuesday />,
-    Wednesday: <Wednesday />,
-    Thursday: <Thursday />,
-    Friday: <Friday />,
-    Saturday: <Saturday />,
-  };
+	const pageMap = {
+		Summary: <Summary />,
+		Sunday: <Sunday />,
+		Monday: <Monday />,
+		Tuesday: <Tuesday />,
+		Wednesday: <Wednesday />,
+		Thursday: <Thursday />,
+		Friday: <Friday />,
+		Saturday: <Saturday />,
+	};
 
-  return (
-    <>
-      <Header setPage={setPage} />
-      <main>{pageMap[currentPage]}</main>
-    </>
-  );
+	return (
+		<>
+			<Header setPage={setPage} />
+			<main>{pageMap[currentPage]}</main>
+		</>
+	);
 }

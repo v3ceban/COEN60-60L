@@ -1,46 +1,54 @@
+@import "colors";
+
 header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
 
-  h1 {
-    font-size: 2em;
-  }
+	h1 {
+		font-size: 2em;
+	}
 
-  img {
-    max-width: 100%;
-    animation: rotate-center 4s linear infinite both;
-    margin: 25px 0;
-  }
+	img {
+		max-width: 100%;
+		animation: rotate-center 4s linear infinite both;
+		margin: 25px 0;
+		border-radius: 50%;
+	}
 
-  @keyframes rotate-center {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+	@keyframes rotate-center {
+		0% {
+			transform: rotate(0);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
 
-  nav {
-    ul {
-      line-height: 2em;
+	nav {
+		ul {
+			line-height: 2em;
 
-      li {
-        display: inline-block;
-        margin-right: 10px;
+			li {
+				display: inline-block;
+				margin-right: 10px;
 
-        &:last-of-type {
-          margin-right: 0;
-        }
+				&:last-of-type {
+					margin-right: 0;
+				}
 
-        button {
-          background: none;
-          color: inherit;
-          border: none;
-        }
-      }
-    }
-  }
+				button {
+					background: none;
+					color: inherit;
+					border: none;
+					cursor: pointer;
+
+					&:hover {
+						color: $accent-orange;
+					}
+				}
+			}
+		}
+	}
 }
