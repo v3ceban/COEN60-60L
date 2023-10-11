@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+export default function Header({ setPage }) {
   return (
     <header>
       <h1>Vlads Schedule Page</h1>
@@ -8,33 +8,31 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="#Sunday">Sunday</a>
+            <button onClick={() => setPage("Sunday")}>Sunday</button>
           </li>
           <li>
-            <a href="#Monday">Monday</a>
+            <button onClick={() => setPage("Monday")}>Monday</button>
           </li>
           <li>
-            <a href="#Tuesday">Tuesday</a>
+            <button onClick={() => setPage("Tuesday")}>Tuesday</button>
           </li>
           <li>
-            <a href="#Wednesday">Wednesday</a>
+            <button onClick={() => setPage("Wednesday")}>Wednesday</button>
           </li>
           <li>
-            <a href="#Thursday">Thursday</a>
+            <button onClick={() => setPage("Thursday")}>Thursday</button>
           </li>
           <li>
-            <a href="#Friday">Friday</a>
+            <button onClick={() => setPage("Friday")}>Friday</button>
           </li>
           <li>
-            <a href="#Saturday">Saturday</a>
+            <button onClick={() => setPage("Saturday")}>Saturday</button>
           </li>
           <li>
-            <a href="#Summary">Summary</a>
+            <button onClick={() => setPage("Summary")}>Summary</button>
           </li>
         </ul>
       </nav>
     </header>
   );
-};
-
-export default Header;
+}
