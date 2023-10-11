@@ -34,6 +34,12 @@ header {
         &:last-of-type {
           margin-right: 0;
         }
+
+        button {
+          background: none;
+          color: inherit;
+          border: none;
+        }
       }
     }
   }

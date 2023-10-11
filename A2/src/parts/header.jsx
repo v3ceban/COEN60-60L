@@ -8,6 +8,9 @@ export default function Header({ setPage }) {
       <nav>
         <ul>
           <li>
+            <button onClick={() => setPage("Summary")}>Summary</button>
+          </li>
+          <li>
             <button onClick={() => setPage("Sunday")}>Sunday</button>
           </li>
           <li>
@@ -27,9 +30,6 @@ export default function Header({ setPage }) {
           </li>
           <li>
             <button onClick={() => setPage("Saturday")}>Saturday</button>
-          </li>
-          <li>
-            <button onClick={() => setPage("Summary")}>Summary</button>
           </li>
         </ul>
       </nav>
