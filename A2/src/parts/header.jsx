@@ -1,5 +1,7 @@
 import React from "react";
 
+const PropTypes = "pagename";
+
 export default function Header({ setPage }) {
 	return (
 		<header>
@@ -36,3 +38,7 @@ export default function Header({ setPage }) {
 		</header>
 	);
 }
+
+Header.propTypes = {
+	setPage: PropTypes.toString.isRequired,
+};
