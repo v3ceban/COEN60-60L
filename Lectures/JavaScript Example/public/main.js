@@ -1,14 +1,13 @@
 function main() {
-  const button = document.getElementById("button");
-  const number = document.getElementById("number");
-  let i = 0;
-
-  button.addEventListener("click", myFunction);
-
-  function myFunction() {
-    i++;
-    number.innerHTML = i;
-  }
+  const p = document.getElementById("demo");
+  const button = document.querySelector("#button");
+  var name = window.prompt("please enter your name: ");
+  var x = 0;
+  button.addEventListener("click", () => {
+    x++;
+    p.innerHTML = "Button was pressed " + x + " times!";
+  });
+  p.innerHTML = "Hello, " + name + ", please press the button!";
 }
 
 main();
