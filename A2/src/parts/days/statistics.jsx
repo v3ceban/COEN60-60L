@@ -1,6 +1,6 @@
 import React from "react";
 
-const Summary = () => {
+const Statistics = () => {
   function calcPercent(x) {
     if (x == 0) {
       return 10;
@@ -9,7 +9,7 @@ const Summary = () => {
   }
   return (
     <section>
-      <h2>Summary</h2>
+      <h2>Statistics</h2>
       <p>
         Sundays are my work days, so most of the day I spend{" "}
         <span className="Working">Working</span> and{" "}
@@ -109,4 +109,4 @@ const Summary = () => {
   );
 };
 
-export default Summary;
+export default Statistics;
