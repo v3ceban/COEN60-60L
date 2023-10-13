@@ -29,25 +29,25 @@ const Sunday = () => {
 					<li className="Family">Family</li>
 				</ol>
 				<svg width="270" height="162" viewBox="0 0 270 162" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect x="10" y="10" width={calcPercent(0)} height="10" rx="5" className="College">
+					<rect x="10" y="11" width={calcPercent(0)} height="10" rx="5" className="College">
 						<title>College: 0 hours (0.00%)</title>
 					</rect>
-					<rect x="10" y="32" width={calcPercent(20)} height="10" rx="5" className="Driving">
+					<rect x="10" y="33" width={calcPercent(20)} height="10" rx="5" className="Driving">
 						<title>Driving: 2 hours (8.33%)</title>
 					</rect>
-					<rect x="10" y="54" width={calcPercent(7.5)} height="10" rx="5" className="Homework">
+					<rect x="10" y="55" width={calcPercent(7.5)} height="10" rx="5" className="Homework">
 						<title>Homework: 45 minutes (3.13%)</title>
 					</rect>
-					<rect x="10" y="76" width={calcPercent(7.5)} height="10" rx="5" className="Gaming">
+					<rect x="10" y="77" width={calcPercent(7.5)} height="10" rx="5" className="Gaming">
 						<title>Gaming: 45 minutes (3.13%)</title>
 					</rect>
-					<rect x="10" y="98" width={calcPercent(100)} height="10" rx="5" className="Working">
+					<rect x="10" y="99" width={calcPercent(100)} height="10" rx="5" className="Working">
 						<title>Working: 10 hours (41.7%)</title>
 					</rect>
-					<rect x="10" y="120" width={calcPercent(85)} height="10" rx="5" className="Sleeping">
+					<rect x="10" y="122" width={calcPercent(85)} height="10" rx="5" className="Sleeping">
 						<title>Sleeping: 8.5 hours (35.4%)</title>
 					</rect>
-					<rect x="10" y="142" width={calcPercent(20)} height="10" rx="5" className="Family">
+					<rect x="10" y="144" width={calcPercent(20)} height="10" rx="5" className="Family">
 						<title>Family: 2 hours (8.34%)</title>
 					</rect>
 				</svg>

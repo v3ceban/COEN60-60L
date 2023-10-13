@@ -27,7 +27,7 @@ export default function Header({ setPage }) {
 	return (
 		<header>
 			<h1>Vlad&apos;s Schedule Page</h1>
-			<img src={logo} height="100" width="90" alt="Schedule Page Logo" />
+			<img src={logo} height="100" width="90" alt="Hourglass Logo" />
 			<nav>
 				<ul>
 					<li>
