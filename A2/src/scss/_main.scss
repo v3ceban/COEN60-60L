@@ -1,167 +1,164 @@
 main {
-	section {
-		background: $black;
-		color: white;
-		padding: 15px 30px;
-		border-radius: 15px;
-		overflow: hidden;
-		max-width: 1080px;
-		margin: auto;
+  section {
+    background: $black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 1080px;
+    margin: auto;
 
-		h2 {
-			display: inline-block;
-			max-width: fit-content;
-			animation: slide-in-left 0.3s ease;
-			margin-bottom: 20px;
+    h2 {
+      display: inline-block;
+      max-width: fit-content;
+      animation: slide-in-left 0.3s ease;
+      margin-bottom: 20px;
 
-			&::after {
-				content: "";
-				display: block;
-				margin: 2px 0 0 0;
-				border-bottom: solid 3px $accent-blue;
-				animation: slide-in-left 0.6s ease;
-			}
-		}
+      &::after {
+        content: "";
+        display: block;
+        margin: 2px 0 0 0;
+        border-bottom: solid 3px $accent-blue;
+        animation: slide-in-left 0.6s ease;
+      }
+    }
 
-		p {
-			line-height: 1.5em;
-			font-size: 1.1em;
-			animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    p {
+      line-height: 1.5em;
+      font-size: 1.1em;
+      animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      margin-bottom: 10px;
 
-			br {
-				margin-bottom: 10px;
-			}
+      small {
+        font-style: italic;
+      }
+    }
 
-			small {
-				font-style: italic;
-				font-size: 0.8em;
-			}
-		}
+    .infographics {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin: 30px 0;
 
-		.infographics {
-			display: flex;
-			width: 100%;
-			align-items: center;
-			justify-content: center;
-			margin: 30px 0;
+      ol {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 152px;
+        justify-content: space-between;
+        animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-			ol {
-				list-style: none;
-				padding: 0;
-				display: flex;
-				flex-direction: column;
-				height: 152px;
-				justify-content: space-between;
-				animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        &:first-of-type {
+          text-align: right;
+        }
+      }
 
-				&:first-of-type {
-					text-align: right;
-				}
-			}
+      svg {
+        animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
-			svg {
-				animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        rect.College {
+          fill: $cat-college;
+        }
+        rect.Driving {
+          fill: $cat-driving;
+        }
+        rect.Homework {
+          fill: $cat-homework;
+        }
+        rect.Gaming {
+          fill: $cat-gaming;
+        }
+        rect.Working {
+          fill: $cat-working;
+        }
+        rect.Sleeping {
+          fill: $cat-sleeping;
+        }
+        rect.Family {
+          fill: $cat-family;
+        }
+      }
 
-				rect.College {
-					fill: $cat-college;
-				}
-				rect.Driving {
-					fill: $cat-driving;
-				}
-				rect.Homework {
-					fill: $cat-homework;
-				}
-				rect.Gaming {
-					fill: $cat-gaming;
-				}
-				rect.Working {
-					fill: $cat-working;
-				}
-				rect.Sleeping {
-					fill: $cat-sleeping;
-				}
-				rect.Family {
-					fill: $cat-family;
-				}
-			}
+      @media screen and (max-width: 620px) {
+        justify-content: space-around;
 
-			@media screen and (max-width: 620px) {
-				justify-content: space-around;
+        ol:first-of-type {
+          animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
+            both;
+        }
+        ol:last-of-type {
+          display: none;
+        }
+        svg {
+          animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
+            both;
+        }
+      }
+    }
+  }
 
-				ol:first-of-type {
-					animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-				}
-				ol:last-of-type {
-					display: none;
-				}
-				svg {
-					animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-				}
-			}
-		}
-	}
+  span,
+  li {
+    font-weight: bold;
+  }
 
-	span,
-	li {
-		font-weight: bold;
-	}
+  .College {
+    color: $cat-college;
+  }
+  .Driving {
+    color: $cat-driving;
+  }
+  .Homework {
+    color: $cat-homework;
+  }
+  .Gaming {
+    color: $cat-gaming;
+  }
+  .Working {
+    color: $cat-working;
+  }
+  .Sleeping {
+    color: $cat-sleeping;
+  }
+  .Family {
+    color: $cat-family;
+  }
 
-	.College {
-		color: $cat-college;
-	}
-	.Driving {
-		color: $cat-driving;
-	}
-	.Homework {
-		color: $cat-homework;
-	}
-	.Gaming {
-		color: $cat-gaming;
-	}
-	.Working {
-		color: $cat-working;
-	}
-	.Sleeping {
-		color: $cat-sleeping;
-	}
-	.Family {
-		color: $cat-family;
-	}
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-500px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
-	@keyframes slide-in-left {
-		0% {
-			transform: translateX(-500px);
-			opacity: 0;
-		}
-		100% {
-			transform: translateX(0);
-			opacity: 1;
-		}
-	}
-	@keyframes fade-in {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
-	@keyframes fade-in-bottom {
-		0% {
-			transform: translateY(50px);
-			opacity: 0;
-		}
-		100% {
-			transform: translateY(0);
-			opacity: 1;
-		}
-	}
-
-	.overview {
-		ol:last-of-type {
-			display: none;
-		}
-	}
+  .overview {
+    ol:last-of-type {
+      display: none;
+    }
   }
 }
