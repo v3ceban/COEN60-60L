@@ -10,17 +10,7 @@ const Monday = () => {
   return (
     <section>
       <h2>Monday</h2>
-      <p>
-        Sundays are my work days, so most of the day I spend{" "}
-        <span className="Working">Working</span> and{" "}
-        <span className="Driving">Driving</span>, as it is an important part of
-        my work. After work I can spend a little time on{" "}
-        <span className="Gaming">Gaming</span> or{" "}
-        <span className="Homework">Homework</span> if I still have something
-        left to do. I spend the remaining time of my day with my{" "}
-        <span className="Family">Family</span> and then go to{" "}
-        <span className="Sleeping">Sleep</span>.
-      </p>
+      <p></p>
       <div className="infographics">
         <ol>
           <li className="College">College</li>

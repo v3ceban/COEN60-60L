@@ -13,12 +13,14 @@ const Saturday = () => {
       <p>
         Saturdays, just like Sundays, are my work days. I spend most of the day{" "}
         <span className="Working">Working</span> and{" "}
-        <span className="Driving">Driving</span> (at the same time). After work
-        I can spend some time playing <span className="Gaming">Videogames</span>{" "}
-        to destress. After that I usually do{" "}
-        <span className="Homework">Homework</span>. The rest of the day I spend
-        with my <span className="Family">Family</span> and then go to{" "}
-        <span className="Sleeping">Sleep</span>.
+        <span className="Driving">Driving</span> (at the same time but again,{" "}
+        <span className="Driving">Driving</span> during{" "}
+        <span className="Working">Working </span> hours are not included to not
+        overflow the 24 hrs cap). After work I can spend some time playing{" "}
+        <span className="Gaming">Videogames</span> to destress. After that I
+        usually do <span className="Homework">Homework</span>. The rest of the
+        day I spend with my <span className="Family">Family</span> and then go
+        to <span className="Sleeping">Sleep</span>.
       </p>
       <div className="infographics">
         <ol>
