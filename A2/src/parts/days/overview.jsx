@@ -24,9 +24,9 @@ const Overview = () => {
         Hovering over a section will show a more detailed explanation.
       </p>
       <p>
-        Navigation items will display corresponding sections of the report with
-        even more details. Summary page displays the average statistics for the
-        week, as well as my thoughts about the data and information about
+        Navigation items will display corresponding sections of the report that
+        have even more details. Summary page displays the average statistics for
+        the week, as well as my thoughts about the data and information about
         activities I would like to increase or decrease.
       </p>
       <p>
