@@ -10,7 +10,11 @@ const Wednesday = () => {
   return (
     <section>
       <h2>Wednesday</h2>
-      <p></p>
+      <p>
+        Wednesday are very similar to Mondays. I only have one lab that is
+        different and a bit more time consuming, so I spend a little more time
+        on <span className="Homework">Homework</span>.{" "}
+      </p>
       <div className="infographics">
         <ol>
           <li className="College">College</li>
