@@ -11,13 +11,13 @@ const Thursday = () => {
     <section>
       <h2>Thursday</h2>
       <p>
-        Thursdays are similar to Tuesdays, but I need to make an extra trip from
-        home to <span className="College">College</span>, which takes the most
-        time during the day. Because of that extra trip I do a little bit more
-        of <span className="Driving">Driving</span>. When I get home I mostly do{" "}
-        <span className="Homework">Homewor</span> and some{" "}
-        <span className="Working">Work</span>. After that I can watch something
-        with my <class className="Family">Wife</class> and then we go to{" "}
+        Thursdays are similar to Tuesdays, but I need to make an additional trip
+        from home to <span className="College">College</span>, which takes up
+        most of my time during the day. Because of that extra trip, I do a
+        little more <span className="Driving">Driving</span>. When I get home, I
+        mostly do <span className="Homework">Homework</span> and some{" "}
+        <span className="Working">Work</span>. After that, I can watch something
+        with my <span className="Family">Wife</span> and then we go to{" "}
         <span className="Sleeping">Sleep</span>.
       </p>
       <div className="infographics">
