@@ -34,7 +34,7 @@ const Overview = () => {
           *All percentages are given to 3 sig. figures and have a +/-1% error
           due to rounding
           <br />
-          **Press &quot;ctrl +&quot; to zoom in
+          **Press &quot;ctrl +&quot; or &quot;ctrl -&quot; to zoom in or out
         </small>
       </p>
       <div className="infographics">

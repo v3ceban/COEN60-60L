@@ -10,7 +10,17 @@ const Friday = () => {
   return (
     <section>
       <h2>Friday</h2>
-      <p></p>
+      <p>
+        On Fridays I only have 2 classes, so I spend a lot less time in{" "}
+        <span className="College">College</span>. After I get home, I do my{" "}
+        <span className="Homework">Homework</span>, the rest of my college{" "}
+        <span className="Working">Work</span>, and spend time with my{" "}
+        <span className="Family">Family</span>. Friday nights I{" "}
+        <span className="Gaming">Play</span> some World of Warcraft with my
+        friends and usually go to <span className="Sleeping">Sleep</span> after
+        it, because I have to go to <span className="Working">Work</span>{" "}
+        tomorrow morning.
+      </p>
       <div className="infographics">
         <ol>
           <li className="College">College</li>

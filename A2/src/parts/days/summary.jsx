@@ -10,7 +10,12 @@ const Summary = () => {
   return (
     <section>
       <h2>Summary</h2>
-      <p></p>
+      <p>
+        Although <span className="Sleeping Increase">Sleep</span> takes the most
+        time on my week (7.75 hrs on average), I don&apos;t feel rested and
+        would like to <span className="Sleeping Increase">Sleep</span> some
+        more.
+      </p>
       <div className="infographics">
         <ol>
           <li className="College">College</li>
