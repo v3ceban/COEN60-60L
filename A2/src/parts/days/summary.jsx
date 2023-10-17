@@ -11,20 +11,53 @@ const Summary = () => {
     <section>
       <h2>Summary</h2>
       <p>
-        Although <span className="Sleeping Increase">Sleep</span> takes the most
-        time on my week (7.75 hrs on average), I don&apos;t feel rested and
-        would like to <span className="Sleeping Increase">Sleep</span> some
-        more.
+        Overall, I spend most of my time{" "}
+        <span className="Sleeping">Sleeping</span>, doing{" "}
+        <span className="Homework">Homework</span>, or in{" "}
+        <span className="College">College</span>. It is not what I expected
+        because I feel like I procrastinate a lot and don&apos;t do anything
+        useful. However, after analyzing what I do during the week, I do not
+        spend that much time in vain. In fact, I spend more than 8.5 hours per
+        week studying (either in <span className="College">College</span> or
+        doing <span className="Homework">Homework</span>), which is a full-time
+        job in terms of time commitment.
+      </p>
+      <h3 className="Increase">To Increase:</h3>
+      <p>
+        Although <span className="Sleeping">Sleep</span> takes the most time on
+        my week (7.75 hrs on average), I don&apos;t feel rested and would like
+        to <span className="Sleeping">Sleep</span> some more. I would also like
+        to increase the time I spend with my{" "}
+        <span className="Family">Family</span> and{" "}
+        <span className="Working">Working</span> on something interesting during
+        the regular working days.
+      </p>
+      <h3 className="Decrease">To Decrease:</h3>
+      <p>
+        I would really like to decrease the time I spend{" "}
+        <span className="Driving">Driving</span> and{" "}
+        <span className="Working">Working</span>, especially on weekends. I
+        don&apos;t like my job and would like to do something else that would
+        help me to grow as a person and as a professional.
       </p>
       <div className="infographics">
         <ol>
           <li className="College">College</li>
-          <li className="Driving">Driving</li>
+          <li className="Driving">
+            Driving <span className="Decrease">--</span>
+          </li>
           <li className="Homework">Homework</li>
           <li className="Gaming">Gaming</li>
-          <li className="Working">Working</li>
-          <li className="Sleeping">Sleeping</li>
-          <li className="Family">Family</li>
+          <li className="Working">
+            Working <span className="Decrease">-</span>
+            <span className="Increase">+</span>
+          </li>
+          <li className="Sleeping">
+            Sleeping <span className="Increase">++</span>
+          </li>
+          <li className="Family">
+            Family <span className="Increase">++</span>
+          </li>
         </ol>
         <svg
           width="270"

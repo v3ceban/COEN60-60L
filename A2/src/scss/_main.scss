@@ -23,6 +23,11 @@ main {
       }
     }
 
+    h3 {
+      max-width: fit-content;
+      margin: 5px 0;
+    }
+
     p {
       line-height: 1.5em;
       font-size: 1.1em;
@@ -124,6 +129,12 @@ main {
   }
   .Family {
     color: $cat-family;
+  }
+  .Increase {
+    color: $accent-blue;
+  }
+  .Decrease {
+    color: $accent-orange;
   }
 
   @keyframes slide-in-left {

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4 - SVG</title>
+    <style>
+      .selector {
+        transform: translateX(500px);
+      }
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <body>
+    <h1>Lab 4 - SVG</h1>
+    <p>Vladimir Ceban</p>
+    <p>vceban@scu.edu</p>
+    <section>
+      <h2>#1.2 - 3 rectangles</h2>
+      <svg width="160" height="30">
+        <rect x="0" y="0" width="50" height="30" fill="yellow" />
+        <rect x="55" y="0" width="50" height="30" fill="orange" />
+        <rect x="110" y="0" width="50" height="30" fill="red" />
+      </svg>
+    </section>
+    <section>
+      <h2>#1.3 - 3 Circles</h2>
+      <svg width="30" height="100">
+        <circle cx="15" cy="15" r="15" fill="yellow" />
+        <circle cx="15" cy="50" r="15" fill="orange" />
+        <circle cx="15" cy="85" r="15" fill="red" />
+      </svg>
+    </section>
+    <section>
+      <h3>#1.4 - 3 rectangles in the center</h3>
+      <svg class="selector" width="160" height="30">
+        <rect x="0" y="0" width="50" height="30" fill="yellow" />
+        <rect x="55" y="0" width="50" height="30" fill="orange" />
+        <rect x="110" y="0" width="50" height="30" fill="red" />
+      </svg>
+    </section>
+    <section>
+      <h4>#1.5 - d3 and a smiley face</h4>
+      <svg width="250" height="250">
+        <rect x="0" y="0" height="250" width="250" fill="grey" />
+        <circle
+          cx="125"
+          cy="125"
+          r="100"
+          fill="yellow"
+          stroke="black"
+          stroke-width="10"
+        />
+        <ellipse cx="80" cy="100" rx="15" ry="25" fill="black" />
+        <ellipse cx="165" cy="100" rx="15" ry="25" fill="black" />
+        <path
+          d="M 100 150 q 25 50 50 0"
+          stroke="black"
+          stroke-width="5"
+          fill="none"
+        />
+      </svg>
+    </section>
+    <script type="text/javascript">
+      d3.select("body").style("background-color", "#ebebeb");
+    </script>
+  </body>
+</html>
