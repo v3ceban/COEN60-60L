@@ -15,11 +15,11 @@ const Saturday = () => {
         <span className="Working">Working</span> and{" "}
         <span className="Driving">Driving</span> (at the same time but again,{" "}
         <span className="Driving">Driving</span> during{" "}
-        <span className="Working">Working </span> hours are not included to not
-        overflow the 24 hrs cap). After work I can spend some time playing{" "}
-        <span className="Gaming">Videogames</span> to destress. After that I
+        <span className="Working">Working</span> hours is not included to not
+        exceed the 24-hour cap). After work, I can spend some time playing{" "}
+        <span className="Gaming">Video Games</span> to destress. After that, I
         usually do some <span className="Homework">Homework</span> I have left
-        over. The rest of the day I spend with my{" "}
+        over. The rest of the day, I spend with my{" "}
         <span className="Family">Family</span> and then go to{" "}
         <span className="Sleeping">Sleep</span>.
       </p>

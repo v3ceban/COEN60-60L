@@ -14,8 +14,8 @@ const Sunday = () => {
         Sundays are my work days, so most of the day I spend{" "}
         <span className="Working">Working</span> and{" "}
         <span className="Driving">Driving</span>, as it is an important part of
-        my work. I don&apos;t include the driving during the work hours as it
-        would overflow 24 hours cap. After work I can spend a little time on{" "}
+        my work. I don&apos;t include driving during work hours as it would
+        overflow the 24-hour cap. After work, I can spend a little time on{" "}
         <span className="Gaming">Games</span> or{" "}
         <span className="Homework">Homework</span> if I still have something
         left to do. I spend the remaining time of my day with my{" "}

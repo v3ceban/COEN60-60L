@@ -24,12 +24,12 @@ const Summary = () => {
       </p>
       <h3 className="Increase">To Increase:</h3>
       <p>
-        Although <span className="Sleeping">Sleep</span> takes the most time on
+        Although <span className="Sleeping">Sleep</span> takes the most time of
         my week (7.75 hrs on average), I don&apos;t feel rested and would like
         to <span className="Sleeping">Sleep</span> some more. I would also like
         to increase the time I spend with my{" "}
         <span className="Family">Family</span> and{" "}
-        <span className="Working">Working</span> on something interesting during
+        <span className="Working">Work</span> on something interesting during
         the regular working days.
       </p>
       <h3 className="Decrease">To Decrease:</h3>

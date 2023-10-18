@@ -15,7 +15,7 @@ const Monday = () => {
         <span className="College">College</span> and doing some of the{" "}
         <span className="Homework">Homework</span> assignments for the week. I
         don&apos;t have much time for <span className="Gaming">Games</span>, but
-        I do play some while I wait in the line to see my doctor in the morning.
+        I do play some while I wait in line to see my doctor in the morning.
         After I&apos;m done with <span className="College">College</span> and{" "}
         <span className="Homework">Homework</span>, I usually do some{" "}
         <span className="Working">Work</span> if I have something to do. The

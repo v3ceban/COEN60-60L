@@ -25,9 +25,9 @@ const Overview = () => {
       </p>
       <p>
         Navigation items will display corresponding sections of the report that
-        have even more details. Summary page displays the average statistics for
-        the week, as well as my thoughts about the data and information about
-        activities I would like to increase or decrease.
+        have even more details. The summary page displays the average statistics
+        for the week, as well as my thoughts about the data and information
+        about activities I would like to increase or decrease.
       </p>
       <p>
         <small>

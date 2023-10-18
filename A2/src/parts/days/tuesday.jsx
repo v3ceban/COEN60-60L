@@ -11,13 +11,13 @@ const Tuesday = () => {
     <section>
       <h2>Tuesday</h2>
       <p>
-        On Tuesdays I spend most of my time in{" "}
+        On Tuesdays, I spend most of my time in{" "}
         <span className="College">College</span> and doing{" "}
         <span className="Homework">Homework</span>. I also need to{" "}
         <span className="Driving">Drive</span> a lot because I have to drop off
         and pick up my wife from her classes. In the evenings I tend to do some{" "}
         <span className="Working">Work</span> and spend the rest of my day with
-        my <span className="Family">Wife</span>. After the long day I get about
+        my <span className="Family">Wife</span>. After a long day, I get about
         7.5 hours of <span className="Sleeping">Sleep</span>.
       </p>
       <div className="infographics">
