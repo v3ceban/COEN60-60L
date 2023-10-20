@@ -1,14 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 svg {
   display: block;
-  margin: 20px auto;
+  width: 40vw;
+  min-height: 40vw;
   border: 1px solid black;
 }
 
+.buttons,
 h1 {
-  text-align: center;
-}
-
-button {
-  display: block;
-  margin: auto;
+  margin: 20px 0;
 }
