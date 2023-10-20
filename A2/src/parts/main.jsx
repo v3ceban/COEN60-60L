@@ -11,24 +11,24 @@ import Friday from "./days/friday";
 import Saturday from "./days/saturday";
 
 export default function Main() {
-	const [currentPage, setPage] = useState("Overview");
+  const [currentPage, setPage] = useState("Overview");
 
-	const pageMap = {
-		Overview: <Overview />,
-		Sunday: <Sunday />,
-		Monday: <Monday />,
-		Tuesday: <Tuesday />,
-		Wednesday: <Wednesday />,
-		Thursday: <Thursday />,
-		Friday: <Friday />,
-		Saturday: <Saturday />,
-		Summary: <Summary />,
-	};
+  const pageMap = {
+    Overview: <Overview />,
+    Sunday: <Sunday />,
+    Monday: <Monday />,
+    Tuesday: <Tuesday />,
+    Wednesday: <Wednesday />,
+    Thursday: <Thursday />,
+    Friday: <Friday />,
+    Saturday: <Saturday />,
+    Summary: <Summary />,
+  };
 
-	return (
-		<>
-			<Header setPage={setPage} />
-			<main>{pageMap[currentPage]}</main>
-		</>
-	);
+  return (
+    <>
+      <Header setPage={setPage} />
+      <main>{pageMap[currentPage]}</main>
+    </>
+  );
 }
