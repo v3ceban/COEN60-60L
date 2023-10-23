@@ -3,6 +3,7 @@ const main = () => {
   const svg = document.querySelector("svg");
   const svgWidth = svg.width.baseVal.value;
   const svgHeight = svg.height.baseVal.value;
+  var rects = [];
   const width = svgWidth / 20;
   const height = svgHeight / 20;
   let flag = false;
@@ -27,6 +28,7 @@ const main = () => {
     square.setAttribute("width", width);
     square.setAttribute("height", height);
     square.setAttribute("fill", randColor());
+    rects.push(square);
     return square;
   };
 
@@ -49,6 +51,19 @@ const main = () => {
       let square = createSquare();
       svg.appendChild(square);
     }
+  });
+  button[3].addEventListener("click", () => {
+    for (let index = 0; index < rects.length; index++) {
+      const square = rects[index];
+      square.setAttribute("fill", randColor());
+    }
+  });
+  button[4].addEventListener("click", () => {
+    for (let index = 0; index < rects.length; index++) {
+      const square = rects[index];
+      svg.removeChild(square);
+    }
+    rects = [];
   });
 };
 
