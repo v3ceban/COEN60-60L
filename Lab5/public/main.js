@@ -1,8 +1,8 @@
 const main = () => {
   const button = document.querySelectorAll("button");
   const svg = document.querySelector("svg");
-  const svgWidth = svg.width.baseVal.value;
-  const svgHeight = svg.height.baseVal.value;
+  const svgWidth = svg.getBoundingClientRect().width;
+  const svgHeight = svg.getBoundingClientRect().height;
   var rects = [];
   const width = svgWidth / 20;
   const height = svgHeight / 20;
