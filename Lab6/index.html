@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <title>Lab 6 - Form Validation</title>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form>
+      <label for="Name">Name:</label>
+      <input id="Name" name="Name" type="text" required />
+      <label for="Email">Email:</label>
+      <input id="Email" name="Email" type="email" required />
+      <label for="Phone">Phone:</label>
+      <input id="Phone" name="Phone" type="text" />
+      <button type="submit">Sign Up</button>
+    </form>
+    <div id="formData"></div>
+    <h2>Which of the following teams are based in SF area?</h2>
+    <form>
+      <input type="checkbox" name="49" id="49" />
+      <label for="49">49ers</label>
+      <input type="checkbox" name="Warriors" id="Warriors" />
+      <label for="Warriors">Warriors</label>
+      <input type="checkbox" name="Giants" id="Giants" />
+      <label for="Giants">Giants</label>
+      <input type="checkbox" name="Dodgers" id="Dodgers" />
+      <label for="Dodgers">Dodgers</label>
+      <input type="checkbox" name="A's" id="A's" />
+      <label for="A's">A's</label>
+      <input type="checkbox" name="Sharks" id="Sharks" />
+      <label for="Sharks">Sharks</label>
+      <button type="submit">Check</button>
+    </form>
+  </body>
+</html>
