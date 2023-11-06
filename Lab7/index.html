@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 7</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <h1>Hi <span class="name"></span>, let's play!</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Your selection:</td>
+          <td></td>
+          <td>Computer</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="choice">
+              <input type="radio" name="choice" value="rock" id="rock"/>
+              <label for="rock">rock</label>
+            </span>
+            <span class="choice">
+              <input type="radio" name="choice" value="paper" id="paper"/>
+              <label for="paper">paper</label>
+            </span>
+            <span class="choice">
+              <input type="radio" name="choice" value="scissors" id="scissors"/>
+              <label for="scissors">scissors</label>
+            </span>
+            <span class="choice">
+              <input type="radio" name="choice" value="lizard" id ="lizard"/>
+              <label for="lizard">lizard</label>
+            </span>
+            <span class="choice">
+              <input type="radio" name="choice" value="spok" id="spok" />
+              <label for="spok">spok</label>
+            </span>
+          </td>
+          <td><input type="submit" name="submit" value="Go" /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>You selected:</td>
+          <td colspan="2" id="user-selection"></td>
+        </tr>
+        <tr>
+          <td>Computer generated:</td>
+          <td colspan="2" id="computer-selection"></td>
+        </tr>
+      </table>
+    </form>
+    <p class="history">
+      Number of times played: <span>0<span>
+    </p>
+    <p class="result">
+      Result: <span></span>
+    </p>
+  </body>
+</html>
