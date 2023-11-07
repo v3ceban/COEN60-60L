@@ -1,5 +1,3 @@
-import { changeResultImages } from "./images.js";
-
 const userName = prompt("Please enter your name:");
 document.querySelector("h1 .name").innerHTML = userName;
 
@@ -47,6 +45,17 @@ function compare(userPlay, compPlay) {
     return "win";
   } else {
     return "lose";
+  }
+}
+
+function changeResultImages(result) {
+  const image = document.querySelectorAll("img")[1];
+  if (result.includes("win")) {
+    image.setAttribute("src", "./images/win.png");
+  } else if (result.includes("lose")) {
+    image.setAttribute("src", "./images/lose.png");
+  } else {
+    image.setAttribute("src", "./images/tie.png");
   }
 }
 
