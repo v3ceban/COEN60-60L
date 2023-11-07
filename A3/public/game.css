@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  display: grid;
+  height: 95vh;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  background: #eff1f5;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  background: #e6e9ef;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+td {
+  border: 2px solid #333;
+  padding: 10px 5px;
+}
+
+table {
+  width: 100%;
+  text-transform: capitalize;
+  border-spacing: 1px;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+#selection {
+  display: grid;
+  grid-template-areas:
+    "text image"
+    "text image"
+    "text image"
+    "text image"
+    "text image";
+  justify-content: space-between;
+}
+
+#selection img {
+  grid-area: image;
+}
+
+.choice {
+  display: block;
+}
