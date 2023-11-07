@@ -41,51 +41,20 @@ function getCompPlay() {
 }
 
 function getResult(userPlay, compPlay) {
-  switch (userPlay) {
-    case "rock": //0
-      if (compPlay == gameVars[2] || compPlay == gameVars[3]) {
-        return "win";
-      } else if (compPlay == gameVars[4] || compPlay == gameVars[1]) {
-        return "lose";
-      } else {
-        return "draw";
-      }
-
-    case "paper": //1
-      if (compPlay == gameVars[0] || compPlay == gameVars[4]) {
-        return "win";
-      } else if (compPlay == gameVars[2] || compPlay == gameVars[3]) {
-        return "lose";
-      } else {
-        return "draw";
-      }
-
-    case "scissors": //2
-      if (compPlay == gameVars[1] || compPlay == gameVars[3]) {
-        return "win";
-      } else if (compPlay == gameVars[0] || compPlay == gameVars[4]) {
-        return "lose";
-      } else {
-        return "draw";
-      }
-
-    case "lizard": //3
-      if (compPlay == gameVars[1] || compPlay == gameVars[4]) {
-        return "win";
-      } else if (compPlay == gameVars[0] || compPlay == gameVars[2]) {
-        return "lose";
-      } else {
-        return "draw";
-      }
-
-    case "spok": //4
-      if (compPlay == gameVars[0] || compPlay == gameVars[2]) {
-        return "win";
-      } else if (compPlay == gameVars[1] || compPlay == gameVars[3]) {
-        return "lose";
-      } else {
-        return "draw";
-      }
+  if (userPlay === compPlay) {
+    return "draw";
+  } else if (
+    (userPlay === "rock" &&
+      (compPlay === "scissors" || compPlay === "lizard")) ||
+    (userPlay === "paper" && (compPlay === "rock" || compPlay === "spock")) ||
+    (userPlay === "scissors" &&
+      (compPlay === "paper" || compPlay === "lizard")) ||
+    (userPlay === "lizard" && (compPlay === "paper" || compPlay === "spock")) ||
+    (userPlay === "spock" && (compPlay === "rock" || compPlay === "scissors"))
+  ) {
+    return "win";
+  } else {
+    return "lose";
   }
 }
 
