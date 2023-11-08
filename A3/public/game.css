@@ -2,20 +2,32 @@
 
 body {
   display: grid;
-  height: 95vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   justify-items: center;
   align-items: center;
-  overflow: hidden;
   background: #eff1f5;
   color: #333;
   font-family: "Open Sans", sans-serif;
 }
 
 .container {
-  max-width: 700px;
+  min-width: 50%;
   background: #e6e9ef;
   padding: 20px 40px;
   border-radius: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  width: 100px;
+  height: 30px;
 }
 
 td {
@@ -24,9 +36,9 @@ td {
 }
 
 table {
+  border: 2px solid #333;
   width: 100%;
   text-transform: capitalize;
-  border-spacing: 1px;
 }
 
 input[type="submit"] {
@@ -50,6 +62,19 @@ input[type="submit"] {
 
 .choice {
   display: block;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  z-index: 100;
 }
 
 .fade-in {
