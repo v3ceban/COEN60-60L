@@ -50,6 +50,14 @@ function compare(userPlay, compPlay) {
 
 function changeResultImages(result) {
   const image = document.querySelectorAll("img")[1];
+
+  if (image.classList.contains("fade-in") != true) {
+    image.classList.toggle("fade-in");
+  }
+  setTimeout(() => {
+    image.classList.toggle("fade-in");
+  }, 600);
+
   if (result.includes("win")) {
     image.setAttribute("src", "./images/win.png");
   } else if (result.includes("lose")) {

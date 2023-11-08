@@ -17,7 +17,11 @@ function changeSelectionImages() {
   }
 
   function switchImage(element) {
+    image.classList.toggle("fade-in");
     image.setAttribute("src", `./images/${element.value}.png`);
+    setTimeout(() => {
+      image.classList.toggle("fade-in");
+    }, 550);
   }
 }
 
