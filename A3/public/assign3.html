@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vladimir Ceban - Assignment 3</title>
+    <link rel="stylesheet" href="./game.css" />
+    <script src="./extra.js" defer></script>
+    <script src="./game.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Hi <span class="name"></span>, let's play!</h1>
+        <button class="rules">Rules</button>
+      </header>
+      <form>
+        <table>
+          <tr>
+            <td>Your selection:</td>
+            <td></td>
+            <td>Computer</td>
+          </tr>
+          <tr>
+            <td id="selection">
+              <span class="choice">
+                <input type="radio" name="choice" value="rock" id="rock"/>
+                <label for="rock">rock</label>
+              </span>
+              <span class="choice">
+                <input type="radio" name="choice" value="paper" id="paper"/>
+                <label for="paper">paper</label>
+              </span>
+              <span class="choice">
+                <input type="radio" name="choice" value="scissors" id="scissors" checked/>
+                <label for="scissors">scissors</label>
+              </span>
+              <span class="choice">
+                <input type="radio" name="choice" value="lizard" id ="lizard"/>
+                <label for="lizard">lizard</label>
+              </span>
+              <span class="choice">
+                <input type="radio" name="choice" value="spock" id="spock" />
+                <label for="spock">spock</label>
+              </span>
+              <img src="./images/scissors.png" alt="choice" height="100" />
+            </td>
+            <td><input type="submit" name="submit" value="Go" /></td>
+            <td class="computer-selection"></td>
+          </tr>
+          <tr>
+            <td>You selected:</td>
+            <td colspan="2" class="user-selection"></td>
+          </tr>
+          <tr>
+            <td>Computer generated:</td>
+            <td colspan="2" class="computer-selection"></td>
+          </tr>
+        </table>
+      </form>
+      <p>
+        Number of times played: <span class="history">0<span>
+      </p>
+      <p>
+        Number of selections generated:
+        Rocks: <span class="selection">0</span>, 
+        Papers: <span class="selection">0</span>, 
+        Scissors: <span class="selection">0</span>, 
+        Lizards: <span class="selection">0</span>, 
+        Spocks: <span class="selection">0</span>
+      </p>
+      <p>
+        Result: <span class="result"></span>
+      </p>
+      <img src="./images/thinking.png" alt="choice" height="100" />
+    </div>
+  </body>
+</html>
