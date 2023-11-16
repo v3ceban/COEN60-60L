@@ -11,10 +11,10 @@
     $grades = $_POST['grades'];
     $data = array("Peter" => "36", "Sharon" => "45", "Jane" => "20");
     foreach ($data as $key => $value) {
-        echo nl2br($key . " is " . $value . " years old\n");
+        echo nl2br("$key is $value years old\n");
     }
     foreach ($postData as $key => $value) {
-        echo nl2br($key . "=>" . $value . "\n");
+        echo nl2br("$key => $value\n");
     }
     ?>  
 </body>
